@@ -1,0 +1,339 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 10578,
+      "max": [
+        19.780101776123047,
+        24.392091751098633,
+        43.229236602783203
+      ],
+      "min": [
+        -25.775413513183594,
+        -20.192121505737305,
+        6.8849859237670898
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 126936,
+      "componentType": 5126,
+      "count": 10578,
+      "max": [
+        0.99998378753662109,
+        0.99871605634689331,
+        0.99959856271743774
+      ],
+      "min": [
+        -0.99920231103897095,
+        -0.99825572967529297,
+        -0.99994540214538574
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 10578,
+      "max": [
+        0.99928086996078491,
+        0.9991644024848938,
+        0.99924951791763306,
+        1
+      ],
+      "min": [
+        -0.99938762187957764,
+        -0.99993419647216797,
+        -0.99976485967636108,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 10656,
+      "max": [
+        10577
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 253872,
+      "componentType": 5126,
+      "count": 11319,
+      "max": [
+        14.623188972473145,
+        19.354207992553711,
+        41.472320556640625
+      ],
+      "min": [
+        -21.355106353759766,
+        -15.856647491455078,
+        -0.0057964040897786617
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 389700,
+      "componentType": 5126,
+      "count": 11319,
+      "max": [
+        0.99963706731796265,
+        0.99957764148712158,
+        0.99843508005142212
+      ],
+      "min": [
+        -0.99980103969573975,
+        -0.99986094236373901,
+        -0.9993622899055481
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 169248,
+      "componentType": 5126,
+      "count": 11319,
+      "max": [
+        0.99891829490661621,
+        0.99931031465530396,
+        0.99696385860443115,
+        1
+      ],
+      "min": [
+        -0.99961650371551514,
+        -0.99993675947189331,
+        -0.9995272159576416,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 42624,
+      "componentType": 5125,
+      "count": 11319,
+      "max": [
+        11318
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "generator": "Sketchfab (OSG glTF plugin)",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 87900,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 525528,
+      "byteOffset": 87900,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 350352,
+      "byteOffset": 613428,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 963780,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "Feuilles",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0043517599999999997,
+          0.80000000000000004,
+          0.0069494500000000002,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.82394172570000002
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "Bois",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.073234999999999995,
+          0.0048825400000000003,
+          0.0056986299999999997,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.82394172570000002
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "trunk.002_Feuilles_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "trunk.002_Bois_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TANGENT": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "0ee1f2f176cf425fb919620ae50ba056.fbx"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        7
+      ],
+      "matrix": [
+        10,
+        0,
+        0,
+        0,
+        0,
+        -1.6292067939183141e-06,
+        -9.9999999999998685,
+        0,
+        0,
+        9.9999999999998685,
+        -1.6292067939183141e-06,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "trunk.002"
+    },
+    {
+      "mesh": 0,
+      "name": "trunk.002_Feuilles_0"
+    },
+    {
+      "mesh": 1,
+      "name": "trunk.002_Bois_0"
+    },
+    {
+      "children": [
+        5,
+        6
+      ],
+      "name": "Geode"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
+

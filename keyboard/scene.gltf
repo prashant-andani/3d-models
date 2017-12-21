@@ -1,0 +1,447 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 914,
+      "max": [
+        11.306720733642578,
+        0.17545244097709656,
+        3.8308825492858887
+      ],
+      "min": [
+        -11.306720733642578,
+        -0.43789097666740417,
+        -3.4723844528198242
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 10968,
+      "componentType": 5126,
+      "count": 914,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 914,
+      "max": [
+        0.99998384714126587,
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -0.7969934344291687,
+        -1,
+        -1,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 914,
+      "max": [
+        0.93521600961685181,
+        0.99800807237625122
+      ],
+      "min": [
+        0.0018666987307369709,
+        0.0019920321647077799
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 3150,
+      "max": [
+        913
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 21936,
+      "componentType": 5126,
+      "count": 5057,
+      "max": [
+        10.846837997436523,
+        0.43789097666740417,
+        3.03778076171875
+      ],
+      "min": [
+        -10.905981063842773,
+        0.15865489840507507,
+        -2.797123908996582
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 82620,
+      "componentType": 5126,
+      "count": 5057,
+      "max": [
+        0.91278821229934692,
+        1,
+        0.91296428442001343
+      ],
+      "min": [
+        -0.9127882719039917,
+        -1,
+        -0.93524134159088135
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 14624,
+      "componentType": 5126,
+      "count": 5057,
+      "max": [
+        1,
+        0.9127882719039917,
+        0.1776813417673111,
+        1
+      ],
+      "min": [
+        0.40843307971954346,
+        -0.91278821229934692,
+        -0.27950510382652283,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 7312,
+      "componentType": 5126,
+      "count": 5057,
+      "max": [
+        1.0000001192092896,
+        0.26823672652244568
+      ],
+      "min": [
+        0,
+        0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12600,
+      "componentType": 5125,
+      "count": 11472,
+      "max": [
+        5056
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "generator": "Sketchfab (OSG glTF plugin)",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 58488,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 47768,
+      "byteOffset": 58488,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 143304,
+      "byteOffset": 106256,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 95536,
+      "byteOffset": 249560,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 345096,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Keyboard_Body1_normal.png"
+    },
+    {
+      "uri": "textures/Keyboard_Body1_baseColor.png"
+    },
+    {
+      "uri": "textures/Keyboard_Keys_normal.png"
+    },
+    {
+      "uri": "textures/Keyboard_Keys_baseColor.png"
+    },
+    {
+      "uri": "textures/Keyboard_Keys_metallicRoughness.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "Keyboard_Body1",
+      "normalTexture": {
+        "index": 0,
+        "scale": 0.014999999999999999,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "metallicFactor": 1,
+        "roughnessFactor": 0.10804115849999996
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "Keyboard_Keys",
+      "normalTexture": {
+        "index": 2,
+        "scale": 0.068788109799999997,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 3,
+          "texCoord": 0
+        },
+        "metallicFactor": 1,
+        "metallicRoughnessTexture": {
+          "index": 4,
+          "texCoord": 0
+        },
+        "roughnessFactor": 0.2029344512
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Keyboard_Body_Keyboard_Body1_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Keys_Keyboard_Keys_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "Team2_Herry_Keyboard.fbx"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5,
+        8
+      ],
+      "name": "group1"
+    },
+    {
+      "children": [
+        7
+      ],
+      "name": "Keyboard_Body"
+    },
+    {
+      "mesh": 0,
+      "name": "Keyboard_Body_Keyboard_Body1_0"
+    },
+    {
+      "children": [
+        6
+      ],
+      "name": "Geode"
+    },
+    {
+      "children": [
+        10
+      ],
+      "name": "Keys"
+    },
+    {
+      "mesh": 1,
+      "name": "Keys_Keyboard_Keys_0"
+    },
+    {
+      "children": [
+        9
+      ],
+      "name": "Geode"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    },
+    {
+      "sampler": 0,
+      "source": 4
+    }
+  ]
+}
+
